@@ -1,0 +1,132 @@
+.hidden {
+    display: none;
+}
+
+#heading{
+    text-align: center;
+    font-size: 2.5rem;
+}
+#outer{
+   background-color: antiquewhite;
+   height: 650px;
+   border: 2px solid black;
+}
+#inner{
+    overflow: hidden;
+    text-align: center;
+    width:90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border: 6px double rgba(0, 0, 0, 0.666);
+
+}
+#nav{
+    height: 15%;
+    display: flex;
+    /* background-color: cadetblue; */
+    justify-content: space-evenly;
+    font-weight: 800;
+    text-align: center;
+}
+#nav h4{
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin-bottom: -10px;
+}
+#n2{
+    margin-top: 20px;
+    font-weight: 800;
+}
+.green_class{
+    color:#338838;
+    font-size: 1.5rem;
+}
+#space_img{
+    height: 100%;
+    width: 100%;
+}
+h3{
+    font-size: 1.2rem;
+    font-family: cursive;
+    width:70%;
+    margin: auto;
+}
+h1{
+    color:#343572;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#moon_logo{
+    margin-top: -15px;
+    height: 150px;
+    width: 150px;
+}
+
+#nav2{
+  
+    height: 15%;
+    width:80%;
+    margin: auto;
+    display: flex;
+    /* background-color: cadetblue; */
+    justify-content: space-evenly;
+    position: relative;
+    bottom:0%;
+    margin-top: 10px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#m1{
+    /* background-color: red; */
+    height: 200px;
+    width: 300px;
+    font-size: 1rem;
+    /* margin-left: 30px; */
+    font-family: cursive;
+}
+
+#m3{
+   
+    text-align: left;
+    font-size: 1rem;
+}
+.end_class{
+    width: 330px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    border-top: 2px solid black;
+    position: relative;
+    top:-20px;
+}
+#mrinal{
+    color: #343572;
+    margin-top:40px;
+}
+#sp1{
+    color: #343572;
+}
+
+#certificateForm{
+    background-color: beige;
+    height: 50%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+#div1{
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color:#343572;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./download1.png);
+}

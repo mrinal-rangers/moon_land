@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style2.css"> -->
+    <title>LUNAR PROJECT</title>
+    <link rel="icon" type="image/x-icon" href="./logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+</head>
+<body>
+<div id="div1">
+    <form id="certificateForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required><br>
+        <label for="acres">Number of Acres:</label>
+        <input type="number" id="acres" required><br>
+        <label for="landName">Land Name:</label>
+        <input type="text" id="landName" required><br>
+        <label for="place">Choose a Location:</label>
+        <select name="place" id="place">
+        <option value="KEPLER">KEPLER</option>
+        <option value="BYRGIUS">BYRGIUS</option>
+        <option value="GRIMALDI">GRIMALDI</option>
+        <option value="LANGRENUS">LANGRENUS</option>
+        <option value="PLATO">PLATO</option>
+        <option value="STEVINUS">STEVINUS</option>
+        <option value="TYCHO">TYCHO</option>
+        </select>
+        <br>
+        <button type="submit">Generate Certificate</button>
+    </form>
+</div>
+  
+   
+
+  </div>
+  
+
+    <div id="pdfContent">
+        <div id="certificateOutput" class="hidden"></div>
+    </div>
+    <!-- <button id="downloadPDF" class ="hidden"> download</button> -->
+    <button id="printButton" onclick="print()" class ="hidden" >Print</button>
+    <button onclick="downloadPDF()">Download as PDF</button>
+   
+    <script src="script.js" ></script>
+
+</body>
+</html>
