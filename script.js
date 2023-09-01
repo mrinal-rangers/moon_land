@@ -43,6 +43,7 @@ form.addEventListener('submit', function(event) {
     output.classList.remove('hidden');
     document.getElementById('printButton') .classList.remove('hidden');
     document.getElementById('div1') .classList.add('hidden');
+    output.scrollIntoView({ behavior: 'smooth' });
 });
 
 
